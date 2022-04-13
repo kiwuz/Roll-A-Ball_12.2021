@@ -14,7 +14,7 @@ public class box_grav : MonoBehaviour
     {
 
     box_Rigidbody = GetComponent<Rigidbody>();
-    gravity = 6;
+    gravity = 4;
     savePosition();
         
     }

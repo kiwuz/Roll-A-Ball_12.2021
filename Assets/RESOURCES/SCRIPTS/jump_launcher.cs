@@ -16,7 +16,7 @@ public class jump_launcher : MonoBehaviour
 
     void OnTriggerEnter(Collider collision){
 
-           Vector3 rocketJumpVector = new Vector3(0f, 40f, 0f);
+           Vector3 rocketJumpVector = new Vector3(0f, 30f, 0f);
             MC.m_Rigidbody.velocity = MC.m_Rigidbody.velocity + rocketJumpVector; 
         
     }

@@ -15,7 +15,7 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("scene 1", LoadSceneMode.Single);
         Debug.Log("loading first level");
 
-        GM.ScoreReset();
+        //GM.ScoreReset();
 
     }
 

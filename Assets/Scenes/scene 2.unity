@@ -13112,6 +13112,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 58774810, guid: 5154a41cae451754598073f161a11be4, type: 3}
+      propertyPath: m_Time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 58774810, guid: 5154a41cae451754598073f161a11be4, type: 3}
+      propertyPath: m_Parameters.colorGradient.ctime1
+      value: 65342
+      objectReference: {fileID: 0}
+    - target: {fileID: 58774810, guid: 5154a41cae451754598073f161a11be4, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0.3186632
+      objectReference: {fileID: 0}
+    - target: {fileID: 58774810, guid: 5154a41cae451754598073f161a11be4, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0.3186632
+      objectReference: {fileID: 0}
+    - target: {fileID: 58774810, guid: 5154a41cae451754598073f161a11be4, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 0.7264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 58774810, guid: 5154a41cae451754598073f161a11be4, type: 3}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.5837326
+      objectReference: {fileID: 0}
     - target: {fileID: 5383453222736414608, guid: 5154a41cae451754598073f161a11be4, type: 3}
       propertyPath: camera
       value: 
@@ -14782,7 +14806,7 @@ MonoBehaviour:
   coinSound: {fileID: 8300000, guid: e50871e447a4dbf4da2b6c03b43f314d, type: 3}
   checkpointPos: {x: 0, y: 0, z: 0}
   MC: {fileID: 0}
-  checkpointText: {fileID: 0}
+  checkpointText: {fileID: 287954163}
 --- !u!1 &1327132970 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c699e5b3f6b327a409822e3e22e386dd, type: 3}
@@ -17796,7 +17820,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549713631}
-  m_LocalRotation: {x: 0.11873511, y: 0.000000017084666, z: -0.000000002043002, w: 0.992926}
+  m_LocalRotation: {x: 0.11873511, y: -0.00000001708466, z: 0.0000000020430013, w: 0.992926}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -18531,11 +18555,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1285308463704452526, guid: b1e7adb666c93bd4c9dbe6e06794d02f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000017123087
+      value: 0.000000017123087
       objectReference: {fileID: 0}
     - target: {fileID: 1285308463704452526, guid: b1e7adb666c93bd4c9dbe6e06794d02f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000017323019
+      value: -0.0000000017323019
       objectReference: {fileID: 0}
     - target: {fileID: 1285308463704452526, guid: b1e7adb666c93bd4c9dbe6e06794d02f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -22369,7 +22393,7 @@ MonoBehaviour:
   coinSound: {fileID: 8300000, guid: e50871e447a4dbf4da2b6c03b43f314d, type: 3}
   checkpointPos: {x: 0, y: 0, z: 0}
   MC: {fileID: 0}
-  checkpointText: {fileID: 0}
+  checkpointText: {fileID: 287954163}
 --- !u!4 &1984699763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4122938131327598, guid: a37573ad5d3fb7a47997aadbf0976202, type: 3}
@@ -23160,7 +23184,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098065740}
-  m_LocalRotation: {x: 0.10070245, y: -0.000000017118913, z: 0.0000000017327247, w: 0.9949166}
+  m_LocalRotation: {x: 0.10070245, y: 0.000000017118913, z: -0.0000000017327247, w: 0.9949166}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

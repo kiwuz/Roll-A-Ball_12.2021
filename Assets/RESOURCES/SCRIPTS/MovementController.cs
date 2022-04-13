@@ -21,7 +21,7 @@ public class MovementController : MonoBehaviour
     void Start()
     {
        m_Rigidbody = GetComponent<Rigidbody>();
-       SpeedMovement = 4.00f;
+       SpeedMovement = 5.00f;
        jumpHeight = 16.5f;
        gravity = 12.5f;
 
@@ -55,7 +55,7 @@ public class MovementController : MonoBehaviour
 
         
         //JUMPING
-        isGrounded = Physics.Raycast(transform.position, Vector3.down, 1f);
+        isGrounded = Physics.Raycast(transform.position, Vector3.down, 1f) || Physics.Raycast(transform.position, Vector3.left, 1f) || Physics.Raycast(transform.position, Vector3.right, 1f);
 
         if (Input.GetKeyDown ("space") && isGrounded == true){
             Vector3 jumpVector = new Vector3(0f, jumpHeight, 0f);
