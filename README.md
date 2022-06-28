@@ -1,8 +1,8 @@
 # ROLL A BALL 
 
-## ABOUT THE PROJECT 
-
 ![badge](https://img.shields.io/github/last-commit/kiwuz/Roll-A-Ball_12.2021?style=for-the-badge)
+
+## ABOUT THE PROJECT 
 
 Roll-a-ball is my first game that I've ever made with Unity. 
 This game was made to learn the basics of game developing with Unity and c# during my third year of IT studying. 
